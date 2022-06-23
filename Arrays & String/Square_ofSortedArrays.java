@@ -18,10 +18,10 @@ nums is sorted in non-decreasing order.
 */
 class solution{
    public int[] sortedSquares(int[] nums) {
-        for(int i=0;i<nums.length; i++){
-            nums[i] = nums[i]*nums[i];
+        for(int i=0;i<nums.length; i++){        
+            nums[i] = nums[i]*nums[i];       // cal square of every element
         }
-        Arrays.sort(nums);
-        return (nums);
+        Arrays.sort(nums);       // sort the array via Arrays.sort() func
+        return (nums);           // return the sorted array
     }
 }
