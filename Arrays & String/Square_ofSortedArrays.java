@@ -15,4 +15,13 @@ Constraints:
 1 <= nums.length <= 104
 -104 <= nums[i] <= 104
 nums is sorted in non-decreasing order.
-/*
+*/
+class solution{
+   public int[] sortedSquares(int[] nums) {
+        for(int i=0;i<nums.length; i++){
+            nums[i] = nums[i]*nums[i];
+        }
+        Arrays.sort(nums);
+        return (nums);
+    }
+}
