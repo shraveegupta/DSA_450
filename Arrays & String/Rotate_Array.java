@@ -22,6 +22,7 @@ Constraints:
 -231 <= nums[i] <= 231 - 1
 0 <= k <= 105
 
+// runtime - 0ms/2ms/4ms
 */
 
 
@@ -38,5 +39,3 @@ class Solution {
     }
 }
 
-// time complexity -
-// space complexity - 
