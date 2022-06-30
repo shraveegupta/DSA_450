@@ -77,5 +77,5 @@ public int countPrimes(int n) {
       if (isPrime[i]) count++;
    }
    return count;
-}
+ }
 }
