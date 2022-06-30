@@ -52,3 +52,7 @@ class Solution
         return count;
     }
 }
+
+
+// second approach
+
